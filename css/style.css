@@ -125,22 +125,6 @@ nav.sticky {
     transition: all 0.3s ease-in-out;
 }
 
-.header-text:hover {
-    text-shadow: 0 0 10px #ff0000;
-    transition: text-shadow 0.3s ease-in-out;
-}
-
-nav.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.95);
-    z-index: 999;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.4); /* hiệu ứng đổ bóng */
-    transition: all 0.3s ease-in-out;
-}
-
-
 /* HighLight film */
 .highlight-banner {
     position: relative;
