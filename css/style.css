@@ -257,7 +257,6 @@ nav {
 .top-revenue-exception {
     font-family: Inter-ExtraBold;
     margin-right: -2%;
-    
     color: rgba(155, 153, 153, 0.77);
     text-align: center;
     font-size: 400px;
@@ -266,9 +265,40 @@ nav {
     line-height: normal;
 }
 
+.card-content-vietnam {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.title-card p
+
+.poster-vietnam {
+    width: 400px;
+    margin-top: 15px;
+
+}
 
 
+.card-content-unique {
+    margin-top: 40px;
+}
 
+.title-card-unique {
+    font-family: Inter-ExtraBold;
+    width: 100%;
+    font-size: 64px;
+    line-height: normal;
+    margin-left: 100px;
+}
+
+.poster-card-unique {
+    text-align: center;
+}
+
+.poster-unique {
+    width: 250px;
+    margin-right: 10px;
+}
 
 
 
