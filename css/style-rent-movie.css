@@ -377,7 +377,6 @@ nav.sticky {
     font-family: Inter-ExtraBold;
     margin-right: -2%;
     color: rgba(155, 153, 153, 0.77);
-    -webkit-text-stroke: 4px white; 
     text-align: center;
     font-size: 400px;
     font-style: normal;
