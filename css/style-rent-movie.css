@@ -213,6 +213,7 @@ nav.sticky {
 .content-background {
     background-color: black;
     width: 100%;
+    height: 5700px;
 }
 
 .content-text {
@@ -362,6 +363,11 @@ nav.sticky {
     display: flex;
 }
 
+.poster {
+    width: 310px;
+    margin-left: 10px;
+}
+
 .top-revenue {
     font-family: Inter-ExtraBold;
     margin-right: -3%;
@@ -382,6 +388,122 @@ nav.sticky {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+
+
+
+
+
+.sell-offer-title {
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Inter-ExtraBold;
+    width: 100%;
+    font-size: 64px;
+    line-height: normal;
+}
+
+.sell-offer-title {
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Inter-ExtraBold;
+    width: 100%;
+    font-size: 64px;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.countdown-clock {
+    font-feature-settings: 'tnum';
+    font-size: 64px;
+    font-family: Inter-ExtraBold;
+    background: linear-gradient(87deg, #515050 0.87%, #F00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 200px;
+}
+
+.sell-offer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 40px 100px;
+}
+
+.movie-card {
+    position: relative;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    background-color: #ff0000;
+    color: white;
+    font-family: Inter-Bold;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.movie-card-info {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: absolute;
+    top: 498px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    color: white;
+    background: rgba(255, 0, 0, 0.6); 
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+}
+
+.old-price {
+    text-decoration: line-through;
+    opacity: 0.7;
+    margin-right: 15px;
+    font-family: Inter-Regular;
+    font-size: 18px;
+}
+
+.new-price {
+    font-family: Inter-Bold;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.movie-features {
+    font-family: Inter-Light;
+    font-size: 20px;
+}
+
+.movie-feature {
+    display: flex;
+    align-items: center;
+}
+
+.movie-feature img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
 }
 
 
