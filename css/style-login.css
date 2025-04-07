@@ -163,12 +163,12 @@ nav.sticky {
     margin-top: 21px;
     border-radius: 4px;
     border: 1px solid #FFF;
-    opacity: 0.5;
     background: #000101;
+    color: white;
+    padding-left: 18px;
 }
 
 .login-input::placeholder {
-    padding-left: 18px;
     padding-top: 20px;
     color: #FFF;
     font-family: Inter-Regular;
