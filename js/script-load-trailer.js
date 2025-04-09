@@ -1,8 +1,3 @@
-window.addEventListener("scroll", function () {
-    const nav = document.querySelector("nav");
-    nav.classList.toggle("sticky", window.scrollY > 50);
-});
-
 document.addEventListener("DOMContentLoaded", () => {
     const videos = document.querySelectorAll('.trailer-video');
 
