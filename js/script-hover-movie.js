@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         iframeWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
                     }
                 }, 300);
-            }, 400);
+            }, 600);
         });
 
         movieBox.addEventListener('mouseleave', () => {
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 } else {
                     clearInterval(fadeInInterval);
                 }
-            }, 150);
+            }, 500);
         };
 
         const fadeOutVolume = () => {

@@ -238,7 +238,7 @@ nav.sticky {
 }
 
 .card-content {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 100px;
     justify-content: center;
 }
@@ -253,6 +253,7 @@ nav.sticky {
 .poster-card {
     display: flex;
     gap: 30px;
+    margin-top: 20px;
 }
 
 .poster {
