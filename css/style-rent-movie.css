@@ -172,7 +172,6 @@ html, body {
 
 .live-movie-features {
     margin-top: 28px;
-    margin-left: -30px;
 }
 
 .live-movie-features img {
@@ -200,7 +199,7 @@ html, body {
 }
 
 .live-movie-condition {
-    margin-top: 365px;
+    margin-top: 424px;
 }
 
 .live-movie-condition p {
@@ -255,26 +254,6 @@ html, body {
     line-height: normal;
 }
 
-.movie-box.landscape {
-    width: 630px;
-    height: 387px;
-}
-  
-.movie-box.landscape .poster {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.movie-box.landscape:hover .hover-card {
-    width: 102%;
-    height: 100%;
-    transform: none;
-    opacity: 1;
-    pointer-events: auto;
-
-  }
-
 .movie-box {
     width: 310px;
     height: 465px;
@@ -286,6 +265,7 @@ html, body {
 }
 
 .movie-box img {
+    margin-left: 0px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -300,7 +280,6 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: #181818;
-    border-radius: 8px;
     overflow: hidden;
     z-index: 10;
     opacity: 0;
@@ -311,11 +290,12 @@ html, body {
 }
 
 .hover-card.active {
-    width: 350px;
-    height: 450px;
+    width: 310px;
+    height: 465px;
     opacity: 1;
-    transform: scale(1.3);
     pointer-events: auto;
+    z-index: 999;
+    overflow: visible;
 }
 
 .movie-box.active {
@@ -373,19 +353,14 @@ html, body {
     width: 100%;
     font-size: 64px;
     line-height: normal;
-}
-
-.sell-offer-title {
-    margin-top: 40px;
-    margin-left: 100px;
-    font-family: Inter-ExtraBold;
-    width: 100%;
-    font-size: 64px;
-    line-height: normal;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
+}
+
+.sell-offer-text {
+    font-family: Inter-ExtraBold;
 }
 
 .countdown-clock {
@@ -431,8 +406,8 @@ html, body {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     position: absolute;
-    top: 498px;
-    width: 100%;
+    top: 517px;
+    width: 375px;
     height: auto;
     padding: 15px;
     color: white;
