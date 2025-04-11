@@ -227,8 +227,3 @@ h1 {
 .next-button:hover {
     background-color: #f40612;
 }
-
-.next-button:disabled {
-    background-color: #5c5c5c;
-    cursor: not-allowed;
-}
