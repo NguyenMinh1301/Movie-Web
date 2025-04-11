@@ -275,7 +275,7 @@ body {
     justify-content: center;
 }
 
-.title-card-vietnam {
+.title-card-vietnam p {
     font-family: Inter-ExtraBold;
     width: 100%;
     font-size: 64px;
@@ -284,6 +284,7 @@ body {
 }
 
 .poster-card-vietnam {
+    margin-top: 25px;
     text-align: center;
     display: flex;
 }
@@ -292,7 +293,7 @@ body {
     margin-top: 40px;
 }
 
-.trailer-title {
+.trailer-title p {
     font-family: Inter-ExtraBold;
     width: 100%;
     font-size: 64px;

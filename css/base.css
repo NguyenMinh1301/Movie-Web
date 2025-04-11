@@ -59,14 +59,6 @@ nav {
     text-shadow: #DCEA15 0px 0px 50px;
 }
 
-.header-nav-glow-icon-purple {
-    margin-top: -30%;
-}
-
-.header-nav-glow-icon-yellow {
-    margin-top: -30%;
-}
-
 .header-buttons {
     display: flex;
     gap: 15px;
