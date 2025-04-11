@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: Inter-Regular;
 }
 
@@ -70,38 +72,34 @@ nav {
     gap: 15px;
 }
 
+.header-buttons a {
+    font-size: 16px;
+    font-family: Inter-Bold;
+}
+
 .header-nav-button-language {
     background-color: #333;
     border: none;
-    padding: 5px 17px;
+    padding: 7px 30px;
     border-radius: 5px;
 }
 
 .header-nav-button-login {
     background-color: #ff0000;
     border: none;
-    padding: 5px 30px;
+    padding: 7px 30px;
     border-radius: 5px;
 }
 
 .header-nav-button-language a {
     color: white;
     text-decoration: none;
-    padding-left: 20px;
-    font-family: Inter-Bold;
+    display: flex;
 }
 
 .header-nav-button-login a {
     color: white;
     text-decoration: none;
-    font-family: Inter-Bold;
-}
-
-.header-nav-button-language-icon {
-    padding-top: -10%;
-    margin-left: -7%;
-    margin-right: 7%;
-    padding-bottom: 2%;
 }
 
 .header-nav-line {
@@ -116,7 +114,7 @@ nav {
 nav.sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 1865px;
     background-color: rgba(0, 0, 0, 0.95);
     z-index: 999;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
