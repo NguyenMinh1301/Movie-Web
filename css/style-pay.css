@@ -54,12 +54,18 @@ h1 {
     transition: all 0.3s ease;
 }
 
+.plans-container:hover > .plan-card:not(:hover) {
+    filter: blur(5px);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
 .color-effect {
     position: absolute;
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    filter: blur(70px);
+    filter: blur(100px);
     opacity: 0;
     mix-blend-mode: screen;
     pointer-events: none;
