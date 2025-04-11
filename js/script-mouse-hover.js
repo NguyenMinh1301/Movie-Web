@@ -1,20 +1,22 @@
-// JavaScript cho phần content
 document.addEventListener('DOMContentLoaded', function () {
     const planCards = document.querySelectorAll('.plan-card');
     const nextButton = document.getElementById('nextButton');
     let selectedPlan = null;
 
-    // Hiệu ứng di chuyển màu theo chuột
     planCards.forEach(card => {
         const colorEffect = card.querySelector('.color-effect');
 
         card.addEventListener('mousemove', function (e) {
-            const rect = this.getBoundingClientRect();
+            const rect = card.getBoundingClientRect();
             const x = e.clientX - rect.left;
             const y = e.clientY - rect.top;
 
-            colorEffect.style.left = x - 75 + 'px';
-            colorEffect.style.top = y - 75 + 'px';
+            // Lấy màu nền tại vị trí chuột
+            const bgColor = getBackgroundColorAtPoint(card, x, y);
+            
+            // Cập nhật màu và vị trí hiệu ứng
+            colorEffect.style.backgroundColor = bgColor;
+            colorEffect.style.transform = `translate(${x - 75}px, ${y - 75}px)`;
         });
 
         card.addEventListener('mouseenter', function () {
@@ -26,26 +28,29 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         card.addEventListener('click', function () {
-            // Remove selected class from all cards
             planCards.forEach(c => c.classList.remove('selected'));
-
-            // Add selected class to clicked card
             this.classList.add('selected');
-
-            // Enable next button
             nextButton.disabled = false;
-
-            // Store selected plan
             selectedPlan = this.getAttribute('data-plan');
         });
     });
 
-    // Xử lý nút "Tiếp theo"
     nextButton.addEventListener('click', function () {
         if (selectedPlan) {
             console.log('Bạn đã chọn gói ' + selectedPlan.toUpperCase());
-            // Chuyển sang bước tiếp theo
-            // window.location.href = '/step2.html?plan=' + selectedPlan;
         }
     });
+    
+    // Hàm lấy màu nền tại một điểm
+    function getBackgroundColorAtPoint(element, x, y) {
+        // Xác định thẻ plan card nào đang được hover
+        if (element.classList.contains('plan-basic')) {
+            return '#FFA806'; // Màu vàng cam cho basic
+        } else if (element.classList.contains('plan-family')) {
+            return '#AA0000'; // Màu đỏ cho family
+        } else if (element.classList.contains('plan-pro')) {
+            return '#6600AA'; // Màu tím cho pro
+        }
+        return '#FFFFFF'; // Màu mặc định
+    }
 });
