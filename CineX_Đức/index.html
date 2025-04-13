@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CineX</title>
-    <link rel="icon" href="/assets/logo/cineX.png" />
+    <link rel="icon" href="assets/logo/cineX.png" />
     <link rel="stylesheet" href="css/style-landing-page.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -24,7 +24,7 @@
 
         <div class="header-buttons">
           <div class="header-nav-text-item">
-            <a href="/rent-movie.html" data-page="plans">Thuê phim</a>
+            <a href="/movie-web/rent-movie.html" data-page="plans">Thuê phim</a>
           </div>
           <div>
             <button class="header-nav-button-language">
@@ -32,7 +32,7 @@
             </button>
           </div>
           <button class="header-nav-button-login">
-            <a href="/login.html" data-page="account">Đăng nhập</a>
+            <a href="/movie-web/login.html" data-page="account">Đăng nhập</a>
           </button>
         </div>
       </nav>
@@ -51,7 +51,7 @@
           <div class="hero-form-container">
             <form class="hero-form">
               <input type="email" class="hero-input" placeholder="Địa chỉ email" />
-              <button type="button" class="btn-start" onclick="window.open('/login.html')">
+              <button type="button" class="btn-start" onclick="window.open('/movie-web/login.html')">
                 Bắt đầu <i class="fa-solid fa-chevron-right"></i>
               </button>
             </form>
@@ -115,7 +115,7 @@
           <div class="plan-option-item">
             <div class="plan-option-header">
               <h3>Tiệc "BUFFET"</h3>
-              <span class="premium-badge" onclick="window.open('/signup.html', '_blank')">Premium</span>
+              <span class="premium-badge" onclick="window.open('/movie-web/signup.html', '_blank')">Premium</span>
             </div>
             <div class="plan-option-content">
               <p>Chỉ 70K/tháng, thoải thích xem hàng ngàn bộ phim gồm:</p>
@@ -130,7 +130,7 @@
           <div class="plan-option-item">
             <div class="plan-option-header">
               <h3>Thuê phim lẻ</h3>
-              <span class="rental-badge" onclick="window.open('/rent-movie.html', '_blank')">Thuê phim</span>
+              <span class="rental-badge" onclick="window.open('/movie-web/rent-movie.html', '_blank')">Thuê phim</span>
             </div>
             <div class="plan-option-content">
               <p>Thưởng thức những bộ phim MỚI ngay sau ra rạp, tại mục Phim Thuê Đặc Sắc, trên nền tảng CineX.</p>
@@ -219,10 +219,10 @@
         </div>
       </section>
     </main>
-
     <div id="footer-container"></div>
+
     <script>
-      fetch("Footer/index.html")
+      fetch("/movie-web/CineX_Đức/Footer/index.html")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("footer-container").innerHTML = data;
@@ -250,7 +250,7 @@
               <p class="signup-text">Đăng ký để xem phim này ngay hôm nay</p>
               <form class="movie-email-form">
                 <input type="email" class="movie-email-input" placeholder="Địa chỉ email">
-                <button type="button" class="movie-email-button" onclick="window.open('/signup.html', '_blank')">
+                <button type="button" class="movie-email-button" onclick="window.open('/movie-web/signup.html', '_blank')">
                   Đăng ký
                   <i class="fas fa-chevron-right"></i>
                 </button>
