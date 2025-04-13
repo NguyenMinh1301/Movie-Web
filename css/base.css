@@ -60,6 +60,8 @@ nav {
 }
 
 .header-buttons {
+    align-items: center;
+    justify-content: center;
     display: flex;
     gap: 15px;
 }
@@ -69,8 +71,21 @@ nav {
     font-family: Inter-Bold;
 }
 
+.header-nav-button-login {
+    background-color: #ff0000;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.header-nav-button-login a {
+    color: white;
+    text-decoration: none;
+    font-family: Inter-Bold;
+    font-size: 15px;
+}
+
 .header-nav-button-language {
-    margin-top: 10px;
     margin-right: 10px;   
     background-color: #333;
     border: none;

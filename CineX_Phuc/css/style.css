@@ -72,6 +72,7 @@ nav {
 }
 
 .header-nav-button-language  {
+  margin-top: 10px;
   background-color: #333;
   border: none;
   padding: 5px 17px;
@@ -150,6 +151,11 @@ span{
   color: black;
 }
 
+.account-img {
+  cursor: pointer;
+  width: 50px;
+}
+
 body {
     height: auto;
     width: auto;
@@ -165,14 +171,14 @@ body {
 .background2 {
     filter: blur(10px);
     position: absolute;
-    top: 570%;
+    top: 748%;
     overflow: hidden;
   }
   .background3 {
     filter: blur(10px);
     position: absolute;
     top: 300%;
-    left: -2%;
+    left: -5.5%;
   }
 
     .poster {
@@ -180,11 +186,11 @@ body {
         display: flex;
         gap: 35%;
         left: 10%;
-        top: 670%;
+        top: 850%;
     }
 
       .topphim {
-      top: 660%;
+      top: 830%;
       left: 7%;
       position: absolute;
       color: white;
@@ -195,10 +201,10 @@ body {
       margin-left: 3%;
       display: flex;
       gap: 400px;
-      top: 670%;
+      top: 850%;
       }
   .tieude1 {
-    top: 120px;
+    top: 1350px;
     left: 7%;
     position: absolute;
     color: white;
@@ -207,7 +213,7 @@ body {
 .khoahocvientuong {
   display: flex;
   position: absolute;
-  top: 2600px;
+  top: 3250px;
   left: 7%;
   gap: 20px;
 }
@@ -230,14 +236,14 @@ body {
 .hoathinh {
   display: flex;
   position: absolute;
-  top: 1400px;
+  top: 2050px;
   left: 7%;
   gap: 20px;
 }
 
 .tieude3 {
   position: absolute;
-  top: 1330px;
+  top: 1970px;
   left: 7%;
   color: white;
 }
@@ -245,13 +251,13 @@ body {
 .giadinh {
   display: flex;
   position: absolute;
-  top: 2000px;
+  top: 6210px;
   left: 7%;
   gap: 20px;
 }
 .tieude4 {
   position: absolute;
-  top: 1930px;
+  top: 6130px;
   left: 7%;
   color: white;
 }
@@ -259,20 +265,20 @@ body {
 .chientranh {
   display: flex;
   position: absolute;
-  top: 200px;
+  top: 1450px;
   left: 7%;
   gap: 20px;
 }
 .tieude5 {
   position: absolute;
-  top: 2530px;
+  top: 3160px;
   left: 7%;
   color: white;
 }
 
 .tieude6 {
   position: absolute;
-  top: 3150px;
+  top: 3750px;
   left: 7%;
   color: white;
 }
@@ -280,14 +286,14 @@ body {
 .kinhdi {
   display: flex;
   position: absolute;
-  top: 3230px;
+  top: 3830px;
   left: 7%;
   gap: 20px;
 }
 
 .tieude7 {
   position: absolute;
-  top: 3750px;
+  top: 4350px;
   left: 7%;
   color: white;
 }
@@ -295,14 +301,14 @@ body {
 .trinhtham {
   display: flex;
   position: absolute;
-  top: 3830px;
+  top:  4450px;
   left: 7%;
   gap: 20px;
 }
 
 .tieude8 {
   position: absolute;
-  top: 4350px;
+  top: 4950px;
   left: 7%;
   color: white;
 }
@@ -310,14 +316,14 @@ body {
 .langmang {
   display: flex;
   position: absolute;
-  top: 4430px;
+  top: 5030px;
   left: 7%;
   gap: 20px;
 }
 
 .tieude9 {
   position: absolute;
-  top: 4950px;
+  top: 5540px;
   left: 7%;
   color: white;
 }
@@ -325,7 +331,7 @@ body {
 .hai {
   display: flex;
   position: absolute;
-  top: 5030px;
+  top: 5630px;
   left: 7%;
   gap: 20px;
 }
@@ -333,7 +339,7 @@ body {
 
 .tieude10 {
   position: absolute;
-  top: 5550px;
+  top: 6700px;
   left: 7%;
   color: white;
 }
@@ -341,7 +347,52 @@ body {
 .phieuluu {
   display: flex;
   position: absolute;
-  top: 5630px;
+  top: 6790px;
+  left: 7%;
+  gap: 20px;
+}
+
+.phimmoi{
+  top: 120px;
+  left: 7%;
+  position: absolute;
+  color: white;
+}
+
+.phimmoi2{
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: 7%;
+  gap: 20px;
+}
+
+.phimbo{
+  top: 2550px;
+  left: 7%;
+  position: absolute;
+  color: white;
+}
+
+.phimbo2{
+  display: flex;
+  position: absolute;
+  top: 2650px;
+  left: 7%;
+  gap: 20px;
+}
+
+.phimle{
+  top: 7300px;
+  left: 7%;
+  position: absolute;
+  color: white;
+}
+
+.phimle2{
+  display: flex;
+  position: absolute;
+  top: 7390px;
   left: 7%;
   gap: 20px;
 }
@@ -350,7 +401,7 @@ footer {
   padding: 40px 50px;
   color: #fff;
   position: relative;
-  top: 4700px;
+  top: 6500px;
 }
 
 footer::before {
@@ -1076,3 +1127,32 @@ body {
       z-index: 10;
       cursor: pointer;
     }
+
+    .matvuphuho:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .timxacmakodau:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .pororo:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .gauyeucuaanh:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  

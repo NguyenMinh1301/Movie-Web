@@ -32,30 +32,30 @@
           onchange="window.location.href=this.value"
         >
           <option disabled selected>Thể loại</option>
-          <option value="#chientranh">Chiến tranh</option>
           <option value="#toipha">Tội phạm</option>
+          <option value="#chientranh">Chiến tranh</option>
           <option value="#hoathinh">Hoạt hình</option>
-          <option value="#giadinh">Gia đình</option>
           <option value="#khoahoc">Viễn tưởng</option>
           <option value="#kinhdi">kinh dị</option>
           <option value="#trinhtham">Trinh thám</option>
           <option value="#langmang">Lãng mạng</option>
           <option value="#hai">Hài</option>
           <option value="#kphieuluu">Phiêu lưu</option>
+          <option value="#giadinh">Gia đình</option>
         </select>
 
-        <a class="header-text" href="#">Phim mới</a>
-        <a class="header-text" href="#">Phim bộ</a>
-        <a class="header-text" href="#">Phim lẻ</a>
+        <a class="header-text" href="#phimmoi">Phim mới</a>
+        <a class="header-text" href="#phimbo">Phim bộ</a>
+        <a class="header-text" href="#phimle">Phim lẻ</a>
       </div>
 
           <div class="header-nav-text-glow">
               <div >
                 <img class="header-nav-glow-icon-purple" src="assets/icons/sentiment.png" alt="">
-                  <a class="header-text text-purple glow-purple" href="#">Thuê phim</a>
+                  <a class="header-text text-purple glow-purple" href="/movie-web/rent-movie.html">Thuê phim</a>
               </div>
               <div>
-                  <a class="header-text text-yellow glow-yellow" href="#">Premium</a>
+                  <a class="header-text text-yellow glow-yellow" href="/movie-web/main.html">Premium</a>
                   <img class="header-nav-glow-icon-yellow" src="assets/icons/crown.png" alt="">
               </div>
           </div>
@@ -63,14 +63,14 @@
           <!-- Nút ngôn ngữ và đăng nhập -->
           <div class="header-buttons">
               <div>
-                  <button class="header-nav-button-language">
-                      <a href="#"><img class="header-nav-button-language-icon" src="assets/icons/language.png" alt=""></a>
+                  <button class="header-nav-button-language" onclick="window.open('/movie-web/CineX_Đức/language.html', '_blank')">
+                      <a href="/movie-web/CineX_Đức/language.html"><img class="header-nav-button-language-icon" src="assets/icons/language.png" alt=""></a>
                       <span>Tiếng Việt</span>
                   </button>
               </div>
-              <button class="header-nav-button-login">
-                  <a href="#">Đăng nhập</a>
-              </button>
+              <div onclick="window.open('/movie-web/CineX_Đức/account-setting.html', '_blank')">
+                <img class="account-img" src="/movie-web/assets/icons/pfp.png" alt="">
+              </div>
           </div>
       </nav>
       <div class="header-nav-line"></div>
@@ -88,6 +88,47 @@
     <img class="background3" src="assets/logo2/nentron.png" alt="" width="2000">
   </div>
     <!-- Noi dung -->
+    <div>
+      <h1 id="phimmoi" class="phimmoi">Phim mới</h1>
+      <div class="phimmoi2">
+        <a class="diadao" href="diadao.html"
+          ><img
+            src="assets/hinhnen/diadaoposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="matvuphuho" href="matvuphuho.html"
+          ><img
+            src="assets/hinhnen/matvuphuho.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="timxacmakodau" href="timxacmakodau.html"
+          ><img 
+            src="assets/hinhnen/timxacmakodau.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="pororo" href="pororo.html"
+          ><img
+            src="assets/hinhnen/pororo.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="gauyeucuaanh" href="gauyeucuaanh.html"
+          ><img
+            src="assets/hinhnen/gauyeucuaanh.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
     <div>
       <h1 id="chientranh" class="tieude1">Thể Loại: Chiến tranh</h1>
       <div class="chientranh">
@@ -196,6 +237,47 @@
         <a class="stitch" href="stitch.html"
           ><img
             src="assets/hinhnen/liloposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="phimbo" class="phimbo">Phim bộ</h1>
+      <div class="phimbo2">
+        <a class="queenoftear" href="queenoftear.html"
+          ><img
+            src="assets/hinhnen/queenoftear.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="yeunhulandau" href="loveagain.html"
+          ><img
+            src="assets/hinhnen/yeunhulandau.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="maibenem" href="maibenem.html"
+          ><img 
+            src="assets/hinhnen/maibenem.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="harrypotter" href="harrypotter.html"
+          ><img
+            src="assets/hinhnen/harrypotter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="vituyen17" href="vituyen17.html"
+          ><img
+            src="assets/hinhnen/vituyen17ngayvadem.png"
             alt=""
             height="465"
             width="310"
@@ -469,6 +551,47 @@
       </div>
     </div>
 
+    <div>
+      <h1 id="phimle" class="phimle">Phim lẻ</h1>
+      <div class="phimle2">
+        <a class="bogia" href="bogia.html"
+          ><img
+            src="assets/hinhnen/bogia.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="therevenant" href="therevenant.html"
+          ><img
+            src="assets/hinhnen/therevenant.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="padington" href="padington.html"
+          ><img 
+            src="assets/hinhnen/peruposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="mada" href="mada.html"
+          ><img
+            src="assets/hinhnen/mada.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="panda4" href="panda4.html"
+          ><img
+            src="assets/hinhnen/pandaposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
 
 
     <div>
@@ -552,10 +675,10 @@
           <div class="footer-bottom-contact">
             <h4>Liên hệ với chúng tôi</h4>
             <div class="social-icons">
-              <a href="#" class="social-icon"
+              <a href="https://www.facebook.com/profile.php?id=61574911695138" class="social-icon"
                 ><img src="assets/icons/Facebook.png" alt="Facebook"
               /></a>
-              <a href="#" class="social-icon"
+              <a href="https://www.instagram.com/cinexmovie/" class="social-icon"
                 ><img src="assets/icons/Instagram.png" alt="Instagram"
               /></a>
               <a href="#" class="social-icon"
@@ -579,4 +702,3 @@
     </footer>
   </body>
 </html>
-
