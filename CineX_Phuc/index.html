@@ -24,7 +24,7 @@
           
        <!-- Menu chính -->
        <div class="header-nav-text">
-        <a class="header-text" href="#">Trang chủ</a>
+        <a class="header-text" href="/main.html">Trang chủ</a>
 
         <!-- ComboBox thể loại -->
         <select
@@ -51,11 +51,11 @@
 
           <div class="header-nav-text-glow">
               <div >
-                <img class="header-nav-glow-icon-purple" src="assets/icons/sentiment.png" alt="">
-                  <a class="header-text text-purple glow-purple" href="/movie-web/rent-movie.html">Thuê phim</a>
+                  <a class="header-text text-purple glow-purple" href="/rent-movie.html">Thuê phim</a>
+                  <img class="header-nav-glow-icon-purple" src="assets/icons/sentiment.png" alt="">
               </div>
               <div>
-                  <a class="header-text text-yellow glow-yellow" href="/movie-web/main.html">Premium</a>
+                  <a class="header-text text-yellow glow-yellow" href="/main.html">Premium</a>
                   <img class="header-nav-glow-icon-yellow" src="assets/icons/crown.png" alt="">
               </div>
           </div>
@@ -63,14 +63,16 @@
           <!-- Nút ngôn ngữ và đăng nhập -->
           <div class="header-buttons">
               <div>
-                  <button class="header-nav-button-language" onclick="window.open('/movie-web/CineX_Đức/language.html', '_blank')">
-                      <a href="/movie-web/CineX_Đức/language.html"><img class="header-nav-button-language-icon" src="assets/icons/language.png" alt=""></a>
-                      <span>Tiếng Việt</span>
+                  <button class="header-nav-button-language" onclick="window.open('/CineX_Đức/language.html', '_blank')">
+                      <a href="/CineX_Đức/language.html"><img class="header-nav-button-language-icon" src="assets/icons/language.png" alt=""></a>
+                      <span class="tieng-viet">Tiếng Việt</span>
                   </button>
               </div>
-              <div onclick="window.open('/movie-web/CineX_Đức/account-setting.html', '_blank')">
-                <img class="account-img" src="/movie-web/assets/icons/pfp.png" alt="">
-              </div>
+              <a href="/CineX_Đức/account-setting.html">
+                <div>
+                  <img class="account-img" src="/assets/icons/pfp.png" alt="">
+                </div>
+              </a>
           </div>
       </nav>
       <div class="header-nav-line"></div>
@@ -662,13 +664,13 @@
           <div class="footer-top-links">
             <div class="footer-section">
               <h4>Giới thiệu</h4>
-              <a href="#">About us</a>
+              <a href="/CineX_Khoi/pageS-after-login/about.html">About us</a>
             </div>
 
             <div class="footer-section">
               <h4>Hỗ trợ</h4>
-              <a href="#">Điều khoản sử dụng</a>
-              <a href="#">Chính sách bảo mật</a>
+              <a href="/CineX_Khoi/pageS-after-login/termsOfUse.html">Điều khoản sử dụng</a>
+              <a href="/CineX_Khoi/pageS-after-login/privacyPolicy.html">Chính sách bảo mật</a>
             </div>
           </div>
 
@@ -681,7 +683,7 @@
               <a href="https://www.instagram.com/cinexmovie/" class="social-icon"
                 ><img src="assets/icons/Instagram.png" alt="Instagram"
               /></a>
-              <a href="#" class="social-icon"
+              <a href="https://www.youtube.com/@CineX-o2g" class="social-icon"
                 ><img src="assets/icons/Youtube.png" alt="YouTube"
               /></a>
             </div>

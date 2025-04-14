@@ -20,6 +20,12 @@ nav {
     width: 170px; /* Điều chỉnh kích thước phù hợp */
 }
 
+.account-img {
+    cursor: pointer;
+    width: 45px;
+    height: auto;
+}
+
 .header-nav-text {
     display: flex;
     gap: 80px;
@@ -52,6 +58,7 @@ nav {
 .header-buttons {
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 .header-nav-button-join  {
@@ -95,6 +102,3 @@ nav {
     padding: 0;
     filter: blur(5px);
 }
-
-
-

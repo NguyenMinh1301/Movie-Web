@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CineX</title>
     <link rel="icon" href="CineX_Đức/assets/logo/cineX.png" />
-    <link rel="stylesheet" href="CineX_Đức/css/style-landing-page.css" />
+    <link rel="stylesheet" href="/CineX_Đức/css/style-landing-page.css" />
     <link rel="stylesheet" href="CineX_Đức/css/fonts.css" />
     <link
       rel="stylesheet"
@@ -24,15 +24,18 @@
 
         <div class="header-buttons">
           <div class="header-nav-text-item">
-            <a href="/movie-web/rent-movie.html" data-page="plans">Thuê phim</a>
+            <a href="/rent-movie.html" data-page="plans">Thuê phim</a>
           </div>
-          <div>
-            <button class="header-nav-button-language">
-              <i class="fa-solid fa-globe"></i> Tiếng Việt <i class="fa-solid fa-caret-down"></i>
-            </button>
-          </div>
+            <form class="language-form">
+              <div class="language-select-container">
+                  <select class="language-select">
+                      <option selected>Tiếng Việt</option>
+                      <option>Tiếng Anh</option>
+                  </select>
+              </div>
+          </form>
           <button class="header-nav-button-login">
-            <a href="/movie-web/login.html" data-page="account">Đăng nhập</a>
+            <a href="/login.html" data-page="account">Đăng nhập</a>
           </button>
         </div>
       </nav>
@@ -51,7 +54,7 @@
           <div class="hero-form-container">
             <form class="hero-form">
               <input type="email" class="hero-input" placeholder="Địa chỉ email" />
-              <button type="button" class="btn-start" onclick="window.open('/movie-web/login.html')">
+              <button type="button" class="btn-start" onclick="window.open('/login.html')">
                 Bắt đầu <i class="fa-solid fa-chevron-right"></i>
               </button>
             </form>
@@ -115,7 +118,7 @@
           <div class="plan-option-item">
             <div class="plan-option-header">
               <h3>Tiệc "BUFFET"</h3>
-              <span class="premium-badge" onclick="window.open('/movie-web/signup.html', '_blank')">Premium</span>
+              <span class="premium-badge" onclick="window.open('/signup.html', '_blank')">Premium</span>
             </div>
             <div class="plan-option-content">
               <p>Chỉ 70K/tháng, thoải thích xem hàng ngàn bộ phim gồm:</p>
@@ -130,7 +133,7 @@
           <div class="plan-option-item">
             <div class="plan-option-header">
               <h3>Thuê phim lẻ</h3>
-              <span class="rental-badge" onclick="window.open('/movie-web/rent-movie.html', '_blank')">Thuê phim</span>
+              <span class="rental-badge" onclick="window.open('/rent-movie.html', '_blank')">Thuê phim</span>
             </div>
             <div class="plan-option-content">
               <p>Thưởng thức những bộ phim MỚI ngay sau ra rạp, tại mục Phim Thuê Đặc Sắc, trên nền tảng CineX.</p>
@@ -206,140 +209,25 @@
         <h2 class="faq-title">Câu hỏi thường gặp</h2>
         <div class="faq-container">
           <div class="faq-item">
-            <button class="faq-question" onclick="window.open('/movie-web/CineX_Khoi/pages/supportpage.html', '_blank')">
+            <button class="faq-question" onclick="window.open('/CineX_Khoi/pages/supportpage.html', '_blank')">
               CineX là gì và làm thế nào để xem?
             </button>
           </div>
-          <div class="faq-item" onclick="window.open('/movie-web/CineX_Khoi/pages/supportpage.html', '_blank')">
+          <div class="faq-item" onclick="window.open('/CineX_Khoi/pages/supportpage.html', '_blank')">
             <button class="faq-question">Tôi có thể xem ở đâu?</button>
           </div>
-          <div class="faq-item" onclick="window.open('/movie-web/CineX_Khoi/pages/supportpage.html', '_blank')">
+          <div class="faq-item" onclick="window.open('/CineX_Khoi/pages/supportpage.html', '_blank')">
             <button class="faq-question">Tôi có thể xem gì trên CineX?</button>
           </div>
         </div>
       </section>
     </main>
+
     <div id="footer-container"></div>
-
     <script>
-      fetch("CineX_Đức/Footer/index.html")
+      fetch("/CineX_Đức/Footer/index.html")
         .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("footer-container").innerHTML = data;
-        });
-    </script>
-
-    <!-- Movie Modal -->
-    <div id="movie-modal" class="movie-modal">
-      <div class="movie-modal-content">
-        <span class="movie-modal-close" onclick="closeMovieModal()">&times;</span>
-        <div class="movie-modal-header">
-          <img id="modal-movie-poster" src="" alt="Movie Poster">
-          <div class="movie-modal-header-info">
-            <h2 id="modal-movie-title"></h2>
-            <div class="movie-info-row">
-              <span id="modal-movie-year"></span>
-              <span class="info-divider">•</span>
-              <span id="modal-movie-rating-age">16+</span>
-              <span class="info-divider">•</span>
-              <span id="modal-movie-genre"></span>
-            </div>
-            <p id="modal-movie-description" class="movie-description"></p>
-            
-            <div class="movie-email-signup">
-              <p class="signup-text">Đăng ký để xem phim này ngay hôm nay</p>
-              <form class="movie-email-form">
-                <input type="email" class="movie-email-input" placeholder="Địa chỉ email">
-                <button type="button" class="movie-email-button" onclick="window.open('/movie-web/signup.html', '_blank')">
-                  Đăng ký
-                  <i class="fas fa-chevron-right"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Movie Info Script -->
-    <script>
-      // Dữ liệu phim
-      const movieData = {
-        'squid-game': {
-          title: 'Trò Chơi Con Mực',
-          englishTitle: 'Squid Game',
-          year: 2021,
-          genre: 'Hành động, Kinh dị, Drama',
-          ratingAge: '18+',
-          director: 'Hwang Dong-hyuk',
-          cast: 'Lee Jung-jae, Park Hae-soo, Wi Ha-jun, Jung Ho-yeon',
-          duration: '45 phút/tập',
-          description: 'Hàng trăm người chơi khánh kiệt nhận lời mời tham gia một trò chơi sinh tồn bí ẩn. Đón chờ họ là phần thưởng khổng lồ - và những rủi ro chết người.',
-          poster: 'CineX_Đức/assets/movies/movie1.png'
-        },
-        'sieu-lua': {
-          title: 'Siêu Lừa Gặp Siêu Lầy',
-          englishTitle: 'The Swindlers',
-          year: 2022,
-          genre: 'Hài hước, Hành động',
-          ratingAge: '16+',
-          director: 'Võ Thanh Hòa',
-          cast: 'Anh Tú, Mạc Văn Khoa, Ngọc Phước, Lâm Vỹ Dạ',
-          duration: '112 phút',
-          description: 'Phim Việt hài hước kể về cuộc gặp gỡ giữa tên lừa đảo chuyên nghiệp và gã đàn ông cù lần. Họ bắt buộc trở thành đồng minh của nhau sau một loạt các sự cố dở khóc dở cười.',
-          poster: 'CineX_Đức/assets/movies/movie2.png'
-        },
-        'venom': {
-          title: 'Venom',
-          englishTitle: 'Venom',
-          year: 2018,
-          genre: 'Hành động, Khoa học viễn tưởng',
-          ratingAge: '13+',
-          director: 'Ruben Fleischer',
-          cast: 'Tom Hardy, Michelle Williams, Riz Ahmed',
-          duration: '112 phút',
-          description: 'Phóng viên Eddie Brock vô tình trở thành vật chủ của một sinh vật ngoài hành tinh, một symbiote, tạo ra ký sinh trùng Venom - một thực thể nguy hiểm và mạnh mẽ.',
-          poster: 'CineX_Đức/assets/movies/venom 1.png'
-        },
-        'mai': {
-          title: 'Mai',
-          englishTitle: 'Mai',
-          year: 2023,
-          genre: 'Tâm lý, Tình cảm',
-          ratingAge: '16+',
-          director: 'Trấn Thành',
-          cast: 'Phương Anh Đào, Tuấn Trần, Trấn Thành, Uyển Ân',
-          duration: '131 phút',
-          description: 'Mai - bộ phim tâm lý, tình cảm Việt Nam của đạo diễn Trấn Thành kể về hành trình của một cô gái trẻ đối mặt với những thăng trầm cuộc sống và tình yêu phức tạp.',
-          poster: 'CineX_Đức/assets/movies/mai 1.png'
-        }
-      };
-
-      // Mở modal hiển thị thông tin phim
-      function openMovieModal(movieId) {
-        const movie = movieData[movieId];
-        if (movie) {
-          document.getElementById('modal-movie-poster').src = movie.poster;
-          document.getElementById('modal-movie-title').innerText = movie.title;
-          document.getElementById('modal-movie-year').innerText = movie.year;
-          document.getElementById('modal-movie-rating-age').innerText = movie.ratingAge;
-          document.getElementById('modal-movie-genre').innerText = movie.genre;
-          document.getElementById('modal-movie-description').innerText = movie.description;
-          
-          document.getElementById('movie-modal').style.display = 'flex';
-        }
-      }
-      function closeMovieModal() {
-        document.getElementById('movie-modal').style.display = 'none';
-      }
-
-      // Đóng modal khi click bên ngoài
-      window.onclick = function(event) {
-        const modal = document.getElementById('movie-modal');
-        if (event.target == modal) {
-          closeMovieModal();
-        }
-      }
+        .then((data) => document.getElementById("footer-container").innerHTML = data);
     </script>
   </body>
 </html>

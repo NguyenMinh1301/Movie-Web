@@ -11,7 +11,7 @@
     <header>
         <nav>
           <div class="logo-container">
-            <a href="index.html">
+            <a href="/main.html">
               <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
             </a>
           </div>
@@ -93,7 +93,7 @@
 
       <div id="footer-container"></div>
     <script>
-      fetch("/Footer/index.html")
+      fetch("/CineX_Đức/Footer/index.html")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("footer-container").innerHTML = data;

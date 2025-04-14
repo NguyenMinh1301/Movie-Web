@@ -58,35 +58,6 @@ nav {
     align-items: center;
 }
 
-.header-nav-button-language {
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 3px;
-    padding: 5px 15px;
-    color: #fff;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    transition: background-color 0.3s;
-}
-
-.header-nav-button-language-icon {
-    height: 14px;
-    margin-right: 3px;
-}
-
-.header-nav-button-language a {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-.header-nav-button-language:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
 .logo-container {
     display: flex;
     align-items: center;
