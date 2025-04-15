@@ -29,9 +29,11 @@ Chào mừng bạn đến với **CineX** – một website xem phim trực tuy�
 
 - Giao diện hiện đại, thân thiện với người dùng
 - Phân loại phim theo thể loại
-- Trang chi tiết phim với poster, trailer và mô tả
-- Responsive: hiển thị tốt trên cả desktop và mobile
-- Nút đăng ký gói xem phim (chỉ là giao diện)
+- Trang hỗ trợ người dùng
+- Trang trả phí và trang thuê phim
+- Trang đăng nhập, đăng kí
+- Trang landing page
+- Trang mua gói
 
 ---
 
