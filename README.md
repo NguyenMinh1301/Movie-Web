@@ -18,10 +18,10 @@ Chào mừng bạn đến với **CineX** – một website xem phim trực tuy�
 
 | Thành viên | GitHub |
 |------------|--------|
-| <img src="https://github.com/NguyenMinh1301.png" width="80" height="80" style="border-radius:50%"> | [@USERNAME_1](https://github.com/USERNAME_1) |
-| <img src="https://github.com/DucPhamNgoc08.png" width="80" height="80" style="border-radius:50%"> | [@USERNAME_2](https://github.com/USERNAME_2) |
-| <img src="https://github.com/Khoihoangkm.png" width="80" height="80" style="border-radius:50%"> | [@USERNAME_3](https://github.com/USERNAME_3) |
-| <img src="https://github.com/thanhphuc-dev.png" width="80" height="80" style="border-radius:50%"> | [@USERNAME_4](https://github.com/USERNAME_4) |
+| <img src="https://github.com/NguyenMinh1301.png" width="80" height="80" style="border-radius:50%"> | [NguyenMinh1301](https://github.com/NguyenMinh1301) |
+| <img src="https://github.com/DucPhamNgoc08.png" width="80" height="80" style="border-radius:50%"> | [DucPhamNgoc08](https://github.com/DucPhamNgoc08) |
+| <img src="https://github.com/Khoihoangkm.png" width="80" height="80" style="border-radius:50%"> | [Khoihoangkm](https://github.com/Khoihoangkm) |
+| <img src="https://github.com/thanhphuc-dev.png" width="80" height="80" style="border-radius:50%"> | [thanhphuc-dev](https://github.com/thanhphuc-dev) |
 
 ---
 
