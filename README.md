@@ -69,7 +69,3 @@ Nếu bạn có bất kỳ câu hỏi hoặc ý kiến nào, vui lòng liên h�
 
 - **Email**: nguyenminh1301.dev@gmail.com
 - **GitHub**: [NguyenMinh1301](https://github.com/NguyenMinh1301)
-
-Chúc bạn học tốt!
-
-
