@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style-profile-managing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<body>
+    <header>
+        <nav>
+          <div class="logo-container">
+            <a href="/main.html">
+              <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
+            </a>
+          </div>
+  
+          <div class="header-buttons">
+            <div>
+              <button class="header-nav-button-language">
+                <a href="language.html">
+                  <i class="fa-solid fa-globe"></i> Tiếng Việt</a>
+              </button>
+            </div>
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <img src="assets/images/pfp.png" alt="" >
+                </div>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="header-nav-line"></div>
+      </header>
+
+      <div class="back-to-homepage">
+        <a href="/CineX_Đức/account-setting.html" style="text-decoration: none; color: white; display: flex; align-items: center;">
+          <i class="fa-solid fa-arrow-left"></i>
+          <h1>Quay lại tài khoản</h1>
+        </a>
+      </div>
+
+      <section class="main-content">
+        <div class="main-content-container">
+            <div class="main-content-account">
+                <div class="main-content-title">
+                    <h1>Quản lý hồ sơ</h1>  
+                    <img src="assets/images/pfp.png" alt="profile-picture">
+                    <p>ĐỨC (Username)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content-function">
+        <div class="main-content-details-function">
+            <div class="function-card">
+              <a href="language.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Ngôn ngữ</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="function-card">
+              <a href="view-limit.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Giới hạn xem</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="function-card">
+              <a href="subtitles.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Cài đặt phụ đề</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="function-card">
+              <a href="/CineX_Phuc/index.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Lịch sử xem</h3>
+                </div>
+              </a>
+            </div>
+
+          </div>
+      </section>
+      s
+      <section class="main-content-delete-profile">
+          <div class="details-delete-card">
+            <a href="#" style="text-decoration: none; color: white; display: block;">
+              <div class="delete-card-text">
+                <h3>Xóa hồ sơ</h3>
+              </div>
+            </a>
+          </div>
+      </section>
+    <div id="footer-container"></div>
+    <script>
+      fetch("/CineX_Đức/Footer/index.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-container").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style-language.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo-container">
+            <a href="/main.html">
+              <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
+            </a>
+          </div>
+  
+          <div class="header-buttons">
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <img src="assets/images/pfp.png" alt="" >
+                </div>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="header-nav-line"></div>
+      </header>
+
+      <div class="back-to-homepage">
+        <a href="profile.html" style="text-decoration: none; color: white; display: flex; align-items: center;">
+          <i class="fa-solid fa-arrow-left"></i>
+          <h1>Quay lại hồ sơ</h1>
+        </a>
+      </div>
+
+      <section class="main-content">
+        <div class="main-content-container">
+            <div class="main-content-language">
+                <div class="main-content-title">
+                    <h1>Ngôn ngữ</h1>  
+                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+                        <path d="M99.1666 183.333L137.083 83.3332H154.583L192.5 183.333H175L166.042 157.917H125.625L116.667 183.333H99.1666ZM33.3333 158.333L21.6666 146.667L63.75 104.583C58.8889 99.7221 54.4791 94.1665 50.5208 87.9165C46.5625 81.6665 42.9166 74.5832 39.5833 66.6665H57.0833C59.8611 72.0832 62.6389 76.8054 65.4166 80.8332C68.1944 84.861 71.5278 88.8887 75.4166 92.9165C80 88.3332 84.7569 81.9096 89.6875 73.6457C94.618 65.3818 98.3333 57.4998 100.833 49.9998H8.33331V33.3332H66.6666V16.6665H83.3333V33.3332H141.667V49.9998H117.5C114.583 59.9998 110.208 70.2776 104.375 80.8332C98.5416 91.3887 92.7778 99.4443 87.0833 105L107.083 125.417L100.833 142.5L75.4166 116.458L33.3333 158.333ZM130.833 143.333H160.833L145.833 100.833L130.833 143.333Z" fill="#E3E3E3"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content-function">
+        <div class="language-form-container">
+            <form class="language-form">
+                <div class="language-select-container">
+                    <select class="language-select">
+                        <option selected>Tiếng Việt</option>
+                        <option>Tiếng Anh</option>
+                    </select>
+                </div>
+            </form>
+            <div class="main-content-function-language">
+                <button type="button" class="btn-save">Lưu</button>
+                <a href="profile.html" class="btn-cancel" style="text-decoration: none; display: inline-block;">Hủy</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <script>
+        fetch("/CineX_Đức/Footer/index.html")
+          .then((response) => response.text())
+          .then((data) => document.getElementById("footer-container").innerHTML = data);
+    </script>
+</body>
+</html>

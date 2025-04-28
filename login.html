@@ -13,7 +13,7 @@
     <script src="js/script-header-sticky.js"></script>
 </head>
 <body>
-    <div data-include="header.html"></div>
+    <div data-include="header-nologin.html"></div>
 
     <div class="content">
         <img class="background" src="assets/images/homepage/header/Poster-login-signup.png" alt="">
@@ -23,12 +23,12 @@
                 <input class="login-input" type="text" placeholder="Email hoặc số điện thoại di động">
                 <input class="login-input" type="password" placeholder="Mật khẩu">
 
-                <button class="login-button">Đăng nhập</button>
+                <button class="login-button" onclick="window.open('main.html', '_blank')">Đăng nhập</button>
                 <div class="separator">HOẶC</div>
-                <button class="login-button-code">Sử dụng mã đăng nhập</button>
+                <button class="login-button-code" onclick="window.open('main.html', '_blank')">Sử dụng mã đăng nhập</button>
                 
                 <br>
-                <a class="link" href="#">Bạn quên mật khẩu?</a>
+                <a class="link" href="/CineX_Khoi/pages/supportpage.html">Bạn quên mật khẩu?</a>
                 <br>
 
                 <label class="remember-me">
@@ -39,7 +39,7 @@
                     Bạn mới sử dụng CineX? <a class="signup-link" href="signup.html">Đăng ký ngay.</a>
                 </p>
 
-                <a class="normal-text" href="#">Tìm hiểu thêm</a>
+                <a class="normal-text" href="/CineX_Khoi/pages/supportpage.html">Tìm hiểu thêm</a>
             </div>
         </div>
     </div>

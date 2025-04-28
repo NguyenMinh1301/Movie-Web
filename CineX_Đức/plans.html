@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineX - Gói Đăng Ký</title>
+    <link rel="icon" href="assets/logo/cineX.png" />
+    <link rel="stylesheet" href="css/style-plans.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo-container">
+            <a href="/main.html">
+              <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
+            </a>
+          </div>
+  
+          <div class="header-buttons">
+            <div>
+              <button class="header-nav-button-language">
+                <a href="language.html">
+                  <i class="fa-solid fa-globe"></i> Tiếng Việt</a>
+              </button>
+            </div>
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <img src="assets/images/pfp.png" alt="" >
+                </div>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="header-nav-line"></div>
+      </header>
+
+      <div class="back-to-homepage">
+        <a href="account-setting.html" style="text-decoration: none; color: white; display: flex; align-items: center;">
+          <i class="fa-solid fa-arrow-left"></i>
+          <h1>Quay lại tài khoản</h1>
+        </a>
+      </div>
+
+      <section class="main-content">
+        <div class="main-content-container">
+            <div class="main-content-account">
+                <div class="main-content-title">
+                    <h1>GÓI ĐĂNG KÝ</h1>  
+                    <p>Thông tin về gói dịch vụ</p>
+                </div>
+                <div class="main-content-details">
+                    <div class="main-content-details-item">
+                        <div class="main-content-details-item-card">
+                          <div class="main-content-account-rectangle">
+
+                          </div>
+                            <div class="main-content-details-item-card-title">
+                                <h3>Gói premium</h3>
+                            </div>
+                            <div class="main-content-details-item-card-content">
+                                <div class="main-content-details-item-card-content-item">
+                                    <p>Độ phân giải video 4K với âm thanh không gian, không quảng cáo khi xem và hơn thế nữa.</p>
+                                </div>
+                            </div>
+                            <div class="main-content-details-item-card-button">
+                                <a href="change-plans.html">Thay đổi gói dịch vụ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content-function">
+      <div class="main-content-details-function">
+          <div class="function-card">
+            <div class="function-card-text">
+              <h3>Lần thanh toán tiếp theo</h3>
+              <p>20 tháng 4, 2025</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <script>
+      fetch("/CineX_Đức/Footer/index.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-container").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

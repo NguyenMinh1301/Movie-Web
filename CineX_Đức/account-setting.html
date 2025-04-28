@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineX - Cài Đặt Tài Khoản</title>
+    <link rel="icon" href="assets/logo/cineX.png" />
+    <link rel="stylesheet" href="css/style-account-setting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo-container">
+            <a href="/main.html">
+              <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
+            </a>
+          </div>
+  
+          <div class="header-buttons">
+            <div>
+              <button class="header-nav-button-language">
+                <a href="#"
+                  ><i class="fa-solid fa-globe"></i> Tiếng Việt</a
+                >
+              </button>
+            </div>
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <img src="assets/images/pfp.png" alt="" >
+                </div>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="header-nav-line"></div>
+      </header>
+
+      <div class="back-to-homepage">
+        <a href="/main.html" style="text-decoration: none; color: white; display: flex; align-items: center;">
+          <i class="fa-solid fa-arrow-left"></i>
+          <h1>Quay lại trang chủ</h1>
+        </a>
+      </div>
+
+      <section class="main-content">
+          <div class="main-content-container">
+              <div class="main-content-account">
+                  <div class="main-content-title">
+                      <h1>TÀI KHOẢN</h1>  
+                      <p>Thông tin về gói đăng ký</p>
+                  </div>
+                  <div class="main-content-details">
+                      <div class="main-content-details-item">
+                          <div class="main-content-details-item-card">
+                              <div class="main-content-details-item-card-title">
+                                  <h3>Thông tin tài khoản</h3>
+                              </div>
+                              <div class="main-content-details-item-card-content">
+                                  <div class="main-content-details-item-card-content-item">
+                                      <h4>Gói Pro</h4>
+                                      <p>Ngày hết hạn: 30/03/2025</p>
+                                  </div>
+                              </div>
+                              <div class="main-content-details-item-card-button">
+                                  <a href="plans.html">Quản lý gói đăng ký</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="main-content-function">
+        <div class="main-content-details-function">
+            <div class="function-card">
+              <a href="switch.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Chuyển hồ sơ</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="function-card">
+              <a href="payment.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Phương thức thanh toán</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="function-card">
+              <a href="manage-access.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Quản lý thiết bị truy cập</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="function-card">
+              <a href="password.html" style="text-decoration: none; color: white; display: block;">
+                <div class="function-card-text">
+                  <h3>Đổi mật khẩu</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+      </section>
+
+      <section class="main-content-profile">
+        <div class="main-content-details-profile">
+          <div class="details-card">
+            <a href="profile.html" style="text-decoration: none; color: white; display: block;">
+              <div class="function-card-text">
+                <h3>Quản lý hồ sơ</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div id="footer-container"></div>
+      <script>
+        fetch("/CineX_Đức/Footer/index.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("footer-container").innerHTML = data;
+          });
+      </script>
+</body>
+</html>

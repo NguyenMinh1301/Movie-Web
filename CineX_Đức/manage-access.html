@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style-access.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo-container">
+            <a href="/main.html">
+              <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
+            </a>
+          </div>
+  
+          <div class="header-buttons">
+            <div>
+              <button class="header-nav-button-language">
+                <a href="language.html"><i class="fa-solid fa-globe"></i> Tiếng Việt</a>
+              </button>
+            </div>
+            <div class="profile-container">
+              <div class="profile-picture">
+                <img src="assets/images/pfp.png" alt="" />
+              </div>
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="header-nav-line"></div>
+      </header>
+  
+      <div class="back-to-homepage">
+        <a href="account-setting.html" style="text-decoration: none; color: white; display: flex; align-items: center;">
+          <i class="fa-solid fa-arrow-left"></i>
+          <h1>Quay lại tài khoản</h1>
+        </a>
+      </div>
+
+      <section class="main-content">
+        <div class="main-content-container">
+          <div class="main-content-account">
+            <div class="main-content-title">
+              <h1>Thay đổi loại đăng ký</h1>
+              <p>Bạn có thể đăng xuất bất kỳ thiết bị lạ nào</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="134" height="168" viewBox="0 0 134 168" fill="none">
+                <path d="M54.5 109H79.5L74.7083 82.125C77.4861 80.7361 79.6736 78.7222 81.2708 76.0833C82.868 73.4444 83.6666 70.5277 83.6666 67.3333C83.6666 62.75 82.0347 58.8264 78.7708 55.5625C75.5069 52.2986 71.5833 50.6666 67 50.6666C62.4166 50.6666 58.493 52.2986 55.2291 55.5625C51.9653 58.8264 50.3333 62.75 50.3333 67.3333C50.3333 70.5277 51.1319 73.4444 52.7291 76.0833C54.3264 78.7222 56.5139 80.7361 59.2916 82.125L54.5 109ZM67 167.333C47.6944 162.472 31.7569 151.396 19.1875 134.104C6.61804 116.812 0.333313 97.6111 0.333313 76.5V25.6666L67 0.666626L133.667 25.6666V76.5C133.667 97.6111 127.382 116.812 114.812 134.104C102.243 151.396 86.3055 162.472 67 167.333ZM67 149.833C81.4444 145.25 93.3889 136.083 102.833 122.333C112.278 108.583 117 93.3055 117 76.5V37.125L67 18.375L17 37.125V76.5C17 93.3055 21.7222 108.583 31.1666 122.333C40.6111 136.083 52.5555 145.25 67 149.833Z" fill="#E3E3E3"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+  
+        <div class="device-details">
+          <div class="device-details-item-cards">
+              <div class="device-details-item-card">
+                  <div class="device-details-item-card-rectangle"></div>
+                  <div class="device-details-item-card-title">
+                    <h2>PC Chrome - Trình duyệt web</h2>
+                  </div>
+                  <div class="device-details-item-card-content-button">
+                    <button>Đăng xuất</button>
+                  </div>
+                </div>
+
+                <div class="device-details-item-card">
+                    <div class="device-details-item-card-rectangle"></div>
+                    <div class="device-details-item-card-title">
+                      <h2>Điện thoại Android</h2>
+                    </div>
+                    <div class="device-details-item-card-content-button">
+                      <button>Đăng xuất</button>
+                    </div>
+                  </div>
+      
+                <div class="device-details-item-card">
+                  <div class="device-details-item-card-rectangle"></div>
+                  <div class="device-details-item-card-title">
+                    <h2>Apple - iPhone</h2>
+                  </div>
+                  <div class="device-details-item-card-content-button">
+                    <button>Đăng xuất</button>
+                  </div>
+                </div>
+          </div>
+          <div class="logout-all-devices">
+            <button>Đăng xuất khỏi tất cả các thiết bị</button>
+          </div>
+        </div>
+      </section>
+
+      <div id="footer-container"></div>
+    <script>
+      fetch("/CineX_Đức/Footer/index.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-container").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

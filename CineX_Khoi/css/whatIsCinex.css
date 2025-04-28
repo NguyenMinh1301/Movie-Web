@@ -1,0 +1,198 @@
+* {
+  font-family: Inter-Regular;
+}
+
+body {
+    margin: 0;
+  }
+  
+  main {
+    font-family: none;
+    display: block;
+    position: relative;
+  }
+  
+  .info {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+  
+  .info h1 {
+    text-align: start;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 32px;
+  }
+
+  .info h3 {
+    text-align: start;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 32px;
+  }
+  
+  .info p {
+    margin: 0 0 16px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .info a {
+    color: black;
+    font-size: medium;
+  }
+  
+  .back-to-supportpage {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    display: flex;
+  }
+  
+  .back-to-supportpage > a {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+  
+  .back-to-supportpage a:hover {
+    color: rgb(113, 113, 113);
+    text-decoration: underline 1px;
+  }
+  
+  .back-to-supportpage a:focus {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  /* BÀI VIẾT LIÊN QUAN */
+  .related-articles {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    width: 350px;
+    background-color: #f8f8f8;
+    border: 1px solid #cacaca;
+    border-top: 4px solid red;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  .related-articles h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .related-articles ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .related-articles li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .related-articles a {
+    color: #000;
+    position: relative;
+    color: #000;
+    text-decoration: underline;
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .related-articles a:hover {
+    text-decoration: underline;
+    color: rgb(113, 113, 113);
+  }
+  
+  footer {
+    background-image: url("../assets/Images/bumXD.png");
+    background-size: 100% 100%;
+    height: 25rem;
+    margin-top: 10rem;
+  }
+  
+  select#languageSelect {
+    margin-top: 1rem;
+    margin-left: 300px;
+    background-color: black;
+    color: rgb(143, 143, 143);
+    padding: 10px 15px;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  select#languageSelect:hover {
+    background-color: rgb(88, 88, 88);
+    color: white;
+  }
+  
+  select#languageSelect option {
+    background-color: white;
+    color: black;
+  }
+  
+  .link {
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+  
+  .link > a {
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    color: white;
+  }
+
+.footer-help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: white;
+  }
+  
+  .footer-help h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .footer-help-btn {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .footer-help-btn:hover {
+    background-color: rgb(200, 200, 200);
+  }
+  
+  .footer-line {
+    border: none;
+    height: 1px;
+    background-color: #fff7f7;
+    margin-left: 300px;
+    width: 80rem;
+  }

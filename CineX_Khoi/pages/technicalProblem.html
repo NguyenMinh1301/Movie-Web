@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinex</title>
+    <link rel="icon" href="assets/logo/cineX.png" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/technicalProblem.css" />
+    <link rel="stylesheet" href="../js/scrip.js" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- Logo -->
+        <div class="logo-container">
+          <a href="#">
+            <img
+              class="header-logo"
+              src="../assets/logo/cineX-nobackground.png"
+              alt="CineX"
+            />
+          </a>
+          <a class="header-text" href="supportpage.html">Trung tâm trợ giúp</a>
+        </div>
+
+        <!-- Menu chính -->
+        <div class="header-nav-text">
+          <!-- Nút ngôn ngữ và đăng nhập -->
+          <div class="header-buttons">
+            <div>
+              <button class="header-nav-button-join">
+                <a href="/signup.html">Tham gia Cinex </a>
+              </button>
+            </div>
+            <button class="header-nav-button-login">
+              <a href="/login.html">Đăng nhập</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="header-nav-line"></div>
+    </header>
+
+    <main>
+      <h1>Gửi yêu cầu</h1>
+      <p>
+        Chúng tôi luôn sẵn sàng trợ giúp cho mọi vấn đề bạn gặp phải!<br />
+        Gửi yêu cầu hỗ trợ! Miễn là yêu cầu của bạn không bị rơi mất qua cổng
+        dịch chuyển thì chúng tôi sẽ sớm hỗ trợ bạn.
+      </p>
+      <div class="detail-title">
+        <span>Chi tiết</span>
+      </div>
+
+      <div
+        class="help-request-container"
+        style="width: 30rem; margin: 2rem auto"
+      >
+        <label for="sendHelpRequest">Chọn loại yêu cầu hỗ trợ </label>
+        <select name="sendHelpRequest" id="helpTypeSelector">
+          <option value="sendHelp.html">-</option>
+          <option value="accountRecovery.html">Khôi phục tài khoản</option>
+          <option value="paymentProblem.html">
+            Vấn đề liên quan đến thanh toán hoắc lỗi thanh toán
+          </option>
+          <option selected value="">
+            Sự cố kỹ thuât: Phim giật lag hoặc lỗi sever
+          </option>
+        </select>
+      </div>
+
+      <script>
+        document.getElementById("helpTypeSelector").addEventListener("change", function () {
+          const selectedValue = this.value;
+          if (selectedValue) {
+            window.location.href = selectedValue;
+          }
+        });
+      </script>
+
+      <style>
+        .email-label::after {
+          content: "*";
+          color: red;
+          font-size: 15px;
+          margin-left: 2px;
+        }
+      </style>
+
+      <div
+        class="help-request-container"
+        style="width: 30rem; margin: 2rem auto"
+      >
+        <label class="email-label" for="">Địa chỉ email của bạn</label>
+        <br />
+        <input type="text" />
+      </div>
+
+      <div
+        class="help-request-container"
+        style="width: 30rem; margin: 2rem auto"
+      >
+        <label for="sendHelpRequest"
+          >Bạn đang yêu cầu hỡ trợ nền tảng nào?
+        </label>
+        <select name="sendHelpRequest" id="sendHelpRequest">
+          <option value="-">-</option>
+          <option value="recover">PC</option>
+        </select>
+      </div>
+
+      <div
+        class="help-request-container"
+        style="width: 30rem; margin: 2rem auto"
+      >
+        <label for="sendHelpRequest"
+          >Vui lòng chọn vấn đề kỹ thuật bạn đang gặp phải
+        </label>
+        <select name="sendHelpRequest" id="sendHelpRequest">
+          <option value="-">-</option>
+          <option value="recover">Lỗi phim</option>
+          <option value="payment">Sự cố kết nối</option>
+          <option value="tech">Văng phim</option>
+          <option value="audio">Âm thanh không có/ âm thanh bị loạn</option>
+        </select>
+      </div>
+
+      <div
+      class="help-request-container"
+      style="width: 30rem; margin: 2rem auto"
+    >
+      <label class="email-label" for="">Sự cố xảy ra lúc nào? (Vui lòng điền múi giờ gặp phải)</label>
+      <br />
+      <input type="text" />
+    </div>
+
+      <div
+        class="help-request-container"
+        style="width: 30rem; margin: 2rem auto"
+      >
+        <label class="email-label" for="">Tiêu đề</label>
+        <br />
+        <input type="text" />
+      </div>
+
+      <div
+        class="help-request-container"
+        style="width: 30rem; margin: 2rem auto"
+      >
+        <label class="email-label" for="">Mô tả</label>
+        <br />
+        <input style="height: 100px" type="text" />
+      </div>
+
+      <div
+        class="help-request-container"
+        style="width: 30rem; margin: 2rem auto;"
+      >
+        <label class="email-label" for="uploadFile">Tập tin đính kèm</label>
+        <div
+          style="
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px dashed #000000;
+            font-size: 10px;
+            font-weight: 700;
+            color: #8b9199;
+            text-transform: uppercase;
+            position: relative;
+          "
+        >
+          <input id="uploadFile" style="height: 70px; opacity: 0" type="file" />
+          <span
+            style="
+              font-size: 10px;
+              color: #8b9199;
+              display: inline-block;
+              line-height: 24px;
+              padding: 10px;
+              position: absolute;
+              left: 50%;
+              top: 1rem;
+              transform: translateX(-50%);
+            "
+          >
+            <a>Thêm tập tin</a> hoặc thả tập tin ở đây
+          </span>
+        </div>
+      </div>
+
+      <div class="help-request-container"
+      style="width: 30rem; margin: 2rem auto;">
+            <input style="display: block;
+            padding: 12px 70px;
+            margin: 0 auto;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid transparent;
+            letter-spacing: 1.2px;
+            font-size: 10px;
+            line-height: 1.6;
+            color: #fff;
+            background-color: #e4373c;
+            border-color: #e4373c;
+            width: 10rem;"
+             type="submit" value="Gửi">
+      </div>
+    </main>
+
+    <footer class="isflat">
+      <div>
+        <select name="" id="languageSelect" class="footer-flat">
+          <option disabled value="">Chọn ngôn ngữ</option>
+          <option value="">Tiếng Việt</option>
+        </select>
+      </div>
+
+      <div class="link">
+        <a href="about.html">Về chúng tôi</a>
+        <br />
+        <br />
+        <a href="termsOfUse.html">Điều khoản sử dụng</a>
+        <br />
+        <br />
+        <a href="privacyPolicy.html">Chính sách bảo mật</a>
+      </div>
+    </footer>
+  </body>
+</html>

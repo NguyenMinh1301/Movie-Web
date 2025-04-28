@@ -172,7 +172,6 @@ body {
     width: 100%;
     height: 100%;
     background-color: #181818;
-    border-radius: 8px;
     overflow: hidden;
     z-index: 10;
     opacity: 0;
@@ -183,11 +182,12 @@ body {
 }
 
 .hover-card.active {
-    width: 350px;
-    height: 450px;
+    width: 310px;
+    height: 465px;
     opacity: 1;
-    transform: scale(1.3);
     pointer-events: auto;
+    z-index: 999;
+    overflow: visible;
 }
 
 .movie-box.active {
@@ -239,9 +239,25 @@ body {
 }
 
 .poster-card {
+    position: relative;
+    z-index: 1;
     display: flex;
     gap: 30px;
     margin-top: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+}
+
+.poster-card::-webkit-scrollbar {
+    display: none;
+}
+
+.poster-card {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    cursor: grab;
 }
 
 .poster {

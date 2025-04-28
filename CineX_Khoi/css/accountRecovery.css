@@ -1,0 +1,126 @@
+* {
+  font-family: Inter-Regular;
+}
+
+main {
+    width: 45rem;
+    margin: 10rem auto;
+  }
+  
+  main h1 {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  main p {
+    margin: -30px 0 40px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.2px;
+  }
+  
+  .detail-title {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 17px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-bottom: 1px solid #d2d2d2;
+    transition: all 0.3s ease;
+  }
+  
+  .help-request-container {
+    width: 30rem;
+    margin: 2rem auto;
+  }
+  
+  .help-request-container label {
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+  
+  .help-request-container select {
+    width: 100%;
+    padding: 12px 30px;
+    border: 1px solid #1a1d21;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: rgb(85, 89, 92);
+  }
+
+  .help-request-container input{
+    width: 100%;
+    padding: 12px 30px;
+    border: 1px solid #1a1d21;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+  }
+
+  footer.isflat {
+    background-image: url("../assets/Images/bumXD.png");
+    background-size: 100% 100%;
+    height: 23rem;
+    margin-top: 10rem;
+  }
+
+  select#languageSelect {
+    margin-top: 7rem;
+    margin-left: 350px;
+    background-color: black;
+    color: rgb(143, 143, 143);
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  select#languageSelect.footer-flat {
+    margin-top: 4rem;
+  }
+  
+  select#languageSelect:hover {
+    background-color: rgb(88, 88, 88);
+    color: white;
+  }
+  
+  select#languageSelect option {
+    background-color: white;
+    color: black;
+  }
+  
+  .link {
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+  
+  .link > a {
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+  }
+  
+  .link a:hover{
+    color: white;
+  }
+  
+  .info a {
+    color: black;
+    font-size: medium;
+  }
+  

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style-limit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo-container">
+            <a href="/main.html">
+              <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
+            </a>
+          </div>
+  
+          <div class="header-buttons">
+            <div>
+              <button class="header-nav-button-language">
+                <a href="language.html">
+                  <i class="fa-solid fa-globe"></i> Tiếng Việt</a>
+              </button>
+            </div>
+            <div class="profile-container">
+                <div class="profile-picture">
+                    <img src="assets/images/pfp.png" alt="" >
+                </div>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="header-nav-line"></div>
+      </header>
+
+      <div class="back-to-homepage">
+        <a href="profile.html" style="text-decoration: none; color: white; display: flex; align-items: center;">
+          <i class="fa-solid fa-arrow-left"></i>
+          <h1>Quay lại hồ sơ</h1>
+        </a>
+      </div>
+
+      <section class="main-content">
+        <div class="main-content-container">
+            <div class="main-content-limit">
+                <div class="main-content-title">
+                    <h1>Giới hạn nội dung</h1>      
+                    <p>Không hiển thị một số video cụ thể cho hồ sơ trẻ em</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content-limit-content">
+        <div class="limit-form-container">
+            <form action="text-form">
+                <input type="text" class="current-text-input" placeholder="Nhập tên phim">
+                <div class="form-buttons">
+                    <button type="submit" class="save-button">Lưu</button>
+                    <a href="profile.html" class="cancel-button" style="text-decoration: none; display: inline-block;">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <script>
+      fetch("/CineX_Đức/Footer/index.html")
+        .then((response) => response.text())
+        .then((data) => document.getElementById("footer-container").innerHTML = data);
+    </script>
+</body>
+</html>

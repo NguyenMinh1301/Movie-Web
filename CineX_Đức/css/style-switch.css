@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.main-section{
+    padding-top: 120px;
+}
+
+.profile-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.profile-picture-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.profile-picture-detail img:hover{
+    border: 3px solid white;
+}
+
+.profile-picture-detail a{
+    text-decoration: none;
+    padding-top: 15px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.add-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.add-profile-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.add-profile-detail svg{
+    width: 120px;
+    height: 120px;
+    opacity: 0.5;
+}
+
+.add-profile-detail a{
+    text-decoration: none;
+    padding-top: 25px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.manage-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.manage-profile-button{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.manage-profile-button:hover{
+    border: 2px solid #c4c4c4;
+}
+
+.manage-profile-button p{
+    color: #ffffff;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 20px;
+}

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineX</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="java.js">
+  </head>
+  <body>
+    <header>
+      <nav>
+          <!-- Logo -->
+          <div class="logo-container">
+              <a href="#">
+                  <img class="header-logo" src="assets/logo/CineXlogo.png" alt="CineX">
+              </a>
+          </div>
+          
+       <!-- Menu chính -->
+       <div class="header-nav-text">
+        <a class="header-text" href="/main.html">Trang chủ</a>
+
+        <!-- ComboBox thể loại -->
+        <select
+          class="header-text select-genre"
+          onchange="window.location.href=this.value"
+        >
+          <option disabled selected>Thể loại</option>
+          <option value="#toipha">Tội phạm</option>
+          <option value="#chientranh">Chiến tranh</option>
+          <option value="#hoathinh">Hoạt hình</option>
+          <option value="#khoahoc">Viễn tưởng</option>
+          <option value="#kinhdi">kinh dị</option>
+          <option value="#trinhtham">Trinh thám</option>
+          <option value="#langmang">Lãng mạng</option>
+          <option value="#hai">Hài</option>
+          <option value="#kphieuluu">Phiêu lưu</option>
+          <option value="#giadinh">Gia đình</option>
+        </select>
+
+        <a class="header-text" href="#phimmoi">Phim mới</a>
+        <a class="header-text" href="#phimbo">Phim bộ</a>
+        <a class="header-text" href="#phimle">Phim lẻ</a>
+      </div>
+
+          <div class="header-nav-text-glow">
+              <div >
+                  <a class="header-text text-purple glow-purple" href="/rent-movie.html">Thuê phim</a>
+                  <img class="header-nav-glow-icon-purple" src="assets/icons/sentiment.png" alt="">
+              </div>
+              <div>
+                  <a class="header-text text-yellow glow-yellow" href="/main.html">Premium</a>
+                  <img class="header-nav-glow-icon-yellow" src="assets/icons/crown.png" alt="">
+              </div>
+          </div>
+         
+          <!-- Nút ngôn ngữ và đăng nhập -->
+          <div class="header-buttons">
+              <div>
+                  <button class="header-nav-button-language" onclick="window.open('/CineX_Đức/language.html', '_blank')">
+                      <a href="/CineX_Đức/language.html"><img class="header-nav-button-language-icon" src="assets/icons/language.png" alt=""></a>
+                      <span class="tieng-viet">Tiếng Việt</span>
+                  </button>
+              </div>
+              <a href="/CineX_Đức/account-setting.html">
+                <div>
+                  <img class="account-img" src="/assets/icons/pfp.png" alt="">
+                </div>
+              </a>
+          </div>
+      </nav>
+      <div class="header-nav-line"></div>
+  </header>
+
+    <!-- BACKGROUND -->
+    <div class="background1">
+      <img src="assets/logo2/image.png" alt="" height="2000" width="1000" />
+    </div>
+    <div>
+    <img class="background2" src="assets/logo2/nen.png" alt="" height="2000" width="1000">
+  </div>
+
+  <div>
+    <img class="background3" src="assets/logo2/nentron.png" alt="" width="2000">
+  </div>
+    <!-- Noi dung -->
+    <div>
+      <h1 id="phimmoi" class="phimmoi">Phim mới</h1>
+      <div class="phimmoi2">
+        <a class="diadao" href="diadao.html"
+          ><img
+            src="assets/hinhnen/diadaoposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="matvuphuho" href="matvuphuho.html"
+          ><img
+            src="assets/hinhnen/matvuphuho.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="timxacmakodau" href="timxacmakodau.html"
+          ><img 
+            src="assets/hinhnen/timxacmakodau.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="pororo" href="pororo.html"
+          ><img
+            src="assets/hinhnen/pororo.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="gauyeucuaanh" href="gauyeucuaanh.html"
+          ><img
+            src="assets/hinhnen/gauyeucuaanh.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="chientranh" class="tieude1">Thể Loại: Chiến tranh</h1>
+      <div class="chientranh">
+        <a class="diadao" href="diadao.html"
+          ><img
+            src="assets/hinhnen/diadaoposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="nhungnguoiviethuyenthoai" href="nhungnguoiviethuyenthoai.html"
+          ><img
+            src="assets/hinhnen/huyenthoai.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="muicochay" href="muicochay.html"
+          ><img 
+            src="assets/hinhnen/muicochay.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="hanoi12ngaydem" href="hanoi12ngaydem.html"
+          ><img
+            src="assets/hinhnen/hanoi12ngaydem.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="vituyen17" href="vituyen17.html"
+          ><img
+            src="assets/hinhnen/vituyen17ngayvadem.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="toipham" class="tieude2">Thể Loại: Tội phạm</h1>
+      <div class="toipham">
+        <a class="goodfather" href="godfather.html"
+          ><img
+            src="assets/hinhnen/goodfather.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="les" href="lesaffranchis.css"
+          ><img src="assets/hinhnen/les.png" alt="" height="465" width="310"
+        /></a>
+        <a class="johnwick" href="johnwick.html"
+          ><img
+            src="assets/hinhnen/johnwick.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="departed" href="departed.html"
+          ><img
+            src="assets/hinhnen/departed.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="zodiac" href="zodiac.html"
+          ><img src="assets/hinhnen/zodiac.png" alt="" height="465" width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="hoathinh" class="tieude3">Thể Loại: Hoạt Hình</h1>
+      <div class="hoathinh">
+        <a class="moana2" href="moana2.html"
+          ><img
+            src="assets/hinhnen/moanaposter.png "
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="kitmesu" href="kitmesu.html"
+          ><img
+            src="assets/hinhnen/kitmesuposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="padington" href="padington.html"
+          ><img
+            src="assets/hinhnen/peruposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="panda4" href="panda4.html"
+          ><img
+            src="assets/hinhnen/pandaposter.png "
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="stitch" href="stitch.html"
+          ><img
+            src="assets/hinhnen/liloposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="phimbo" class="phimbo">Phim bộ</h1>
+      <div class="phimbo2">
+        <a class="queenoftear" href="queenoftear.html"
+          ><img
+            src="assets/hinhnen/queenoftear.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="yeunhulandau" href="loveagain.html"
+          ><img
+            src="assets/hinhnen/yeunhulandau.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="maibenem" href="maibenem.html"
+          ><img 
+            src="assets/hinhnen/maibenem.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="harrypotter" href="harrypotter.html"
+          ><img
+            src="assets/hinhnen/harrypotter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="vituyen17" href="vituyen17.html"
+          ><img
+            src="assets/hinhnen/vituyen17ngayvadem.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="giadinh" class="tieude4">Thể Loại: Gia đình</h1>
+      <div class="giadinh">
+        <a class="bogia" href="bogia.html"
+          ><img src="assets/hinhnen/bogia.png" alt="" height="465" width="310"
+        /></a>
+        <a class="giadinhbadao" href="giadinhbadao.html"
+          ><img
+            src="assets/hinhnen/giadinhbadao.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="giadinhhoanhao" href="giadinhhoanhao.css"
+          ><img
+            src="assets/hinhnen/giadinhhoanhao.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="ngaykocome" href="ngaykhongconme.html"
+          ><img
+            src="assets/hinhnen/ngaykoconme.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="kobietten" href="kobtten.html"
+          ><img
+            src="assets/hinhnen/kobietten.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="khoahoc" class="tieude5">Thể Loại: Khoa học viễn tưởng</h1>
+      <div class="khoahocvientuong">
+        <a class="avatar" href="avatar.html"
+          ><img src="assets/hinhnen/avatar.png" alt="" height="465" width="310"
+        /></a>
+        <a class="avengers" href="avenger.html"
+          ><img
+            src="assets/hinhnen/avengers.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="themarvels" href="themavels.html"
+          ><img
+            src="assets/hinhnen/the marvels.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="annihilation" href="annihilation.html"
+          ><img
+            src="assets/hinhnen/annihilation.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="quantumania" href="quantumania.html"
+          ><img
+            src="assets/hinhnen/quantumania.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="kinhdi" class="tieude6">Thể Loại: Kinh dị</h1>
+      <div class="kinhdi">
+        <a class="mada" href="mada.html"
+          ><img src="assets/hinhnen/mada.png" alt="" height="465" width="310"
+        /></a>
+        <a class="quycau" href="quycau.html"
+          ><img
+            src="assets/hinhnen/quycau.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="acquy" href="acquy.html"
+          ><img
+            src="assets/hinhnen/acquy.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="kinhcauma" href=""
+          ><img
+            src="assets/hinhnen/kinhcauma.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="lamgiauvoima" href=""
+          ><img
+            src="assets/hinhnen/lamgiauvoima.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="trinhtham" class="tieude7">Thể Loại: Trinh thám</h1>
+      <div class="trinhtham">
+        <a class="thaotung" href="thaotung.html"
+          ><img src="assets/hinhnen/thaotung.png" alt="" height="465" width="310"
+        /></a>
+        <a class="contratiempo" href="contratiempo.html"
+          ><img
+            src="assets/hinhnen/contratiempo.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="deathnote" href="deathnote.html"
+          ><img
+            src="assets/hinhnen/deathnote.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="anmangvenice" href="anmangvinice.html"
+          ><img
+            src="assets/hinhnen/anmangvenice.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="sherlockholmes" href="sherlockholmes.html"
+          ><img
+            src="assets/hinhnen/sherlockholmes.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="langmang" class="tieude8">Thể Loại: Lãng mạng</h1>
+      <div class="langmang">
+        <a class="queenoftear" href="queenoftear.html"
+          ><img src="assets/hinhnen/queenoftear.png" alt="" height="465" width="310"
+        /></a>
+        <a class="yeunhulandau" href="loveagain.html"
+          ><img
+            src="assets/hinhnen/yeunhulandau.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="maibenem" href="maibenem.html"
+          ><img
+            src="assets/hinhnen/maibenem.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="hauduemattroi" href="hauduemattroi.html"
+          ><img
+            src="assets/hinhnen/hauduemattroi.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="yeu" href="goblin.html"
+          ><img
+            src="assets/hinhnen/goblin.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+
+    <div>
+      <h1 id="hai" class="tieude9">Thể Loại: Hài</h1>
+      <div class="hai">
+        <a class="chutichgiaohang" href="chutichgiaohang.html"
+          ><img src="assets/hinhnen/chutichgiaohang.png" 
+          alt="" 
+          height="465" 
+          width="310"
+        /></a>
+        <a class="cuoixuyenbiengioi" href="cuoixuyenbiengioi.html"
+          ><img
+            src="assets/hinhnen/cuoixuyenbiengioi.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="bo4baothu" href="botubbaothu.html"
+          ><img
+            src="assets/hinhnen/bo4baothu.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="chaydiroitinh" href="chaydiroitinh.html"
+          ><img
+            src="assets/hinhnen/chaydiroitinh.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="macgitet" href="macgitet.html"
+          ><img
+            src="assets/hinhnen/macgitet.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="phieuluu" class="tieude10">Thể Loại: phiêu lưu</h1>
+      <div class="phieuluu">
+        <a class="harrypotter" href="harrypotter.html"
+          ><img src="assets/hinhnen/harrypotter.png" 
+          alt="" 
+          height="465" 
+          width="310"
+        /></a>
+        <a class="pil" href="pil.html"
+          ><img
+            src="assets/hinhnen/pil.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="tintin" href="tintin.html"
+          ><img
+            src="assets/hinhnen/tintin.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="madmax" href="madmax.html"
+          ><img
+            src="assets/hinhnen/madmax.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="therevenant" href="therevenant.html"
+          ><img
+            src="assets/hinhnen/therevenant.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+    <div>
+      <h1 id="phimle" class="phimle">Phim lẻ</h1>
+      <div class="phimle2">
+        <a class="bogia" href="bogia.html"
+          ><img
+            src="assets/hinhnen/bogia.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="therevenant" href="therevenant.html"
+          ><img
+            src="assets/hinhnen/therevenant.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="padington" href="padington.html"
+          ><img 
+            src="assets/hinhnen/peruposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="mada" href="mada.html"
+          ><img
+            src="assets/hinhnen/mada.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+        <a class="panda4" href="panda4.html"
+          ><img
+            src="assets/hinhnen/pandaposter.png"
+            alt=""
+            height="465"
+            width="310"
+        /></a>
+      </div>
+    </div>
+
+
+
+    <div>
+      <h1 class="topphim">Top phim hay nhất</h1>
+      <div class="so">
+        <img class="so1" src="assets/logo2/so1.png" alt="" width="220" height="315" />
+        <img src="assets/logo2/so2.png" alt="" width="240" height="315" />
+        <img src="assets/logo2/so3.png" alt="" width="240" height="315" />
+      </div>
+    </div>
+
+    <div class="poster">
+      <a class="diadao" href="trailer/diadao.html"
+        ><img
+          src="assets/hinhnen/diadaoposter.png"
+          alt=""
+          height="465"
+          width="310"
+      /></a>
+      <a class="nhungnguoiviethuyenthoai" href="trailer/nguoiviethuyenthoai.html"
+        ><img
+          src="assets/hinhnen/huyenthoai.png"
+          alt=""
+          height="465"
+          width="310"
+      /></a>
+      <a class="padington" href="trailer/paddington.html"
+        ><img
+          src="assets/hinhnen/peruposter.png"
+          alt=""
+          height="465"
+          width="310"
+      /></a>
+    </div>
+
+
+    <!-- Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img
+              src="assets/logo/cineX.png"
+              alt="Logo"
+              class="logo-image-footer"
+            />
+          </div>
+          <div class="company-details">
+            <p>
+              CineX là dịch vụ được cung cấp bởi Công ty Cổ Phần CineX, thành
+              viên của Công ty Cổ Phần Giải trí CINEMAX.
+            </p>
+            <p>
+              Địa chỉ: Tòa The Nexus tại 3A - 3B Tôn Đức Thắng, Bến Nghé, Quận
+              1, Hồ Chí Minh 700000, Việt Nam.
+            </p>
+            <p>Mã số doanh nghiệp: 0000000001.</p>
+            <p>Ngày cấp mã số doanh nghiệp: 01/03/2025.</p>
+            <p>Nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh.</p>
+            <div class="certification">
+              <img src="assets/icons/BoCongThuong.png" alt="Bộ Công Thương" />
+              <img src="assets/icons/dmca.png" alt="DMCA Protected" />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-top-links">
+            <div class="footer-section">
+              <h4>Giới thiệu</h4>
+              <a href="/CineX_Khoi/pageS-after-login/about.html">About us</a>
+            </div>
+
+            <div class="footer-section">
+              <h4>Hỗ trợ</h4>
+              <a href="/CineX_Khoi/pageS-after-login/termsOfUse.html">Điều khoản sử dụng</a>
+              <a href="/CineX_Khoi/pageS-after-login/privacyPolicy.html">Chính sách bảo mật</a>
+            </div>
+          </div>
+
+          <div class="footer-bottom-contact">
+            <h4>Liên hệ với chúng tôi</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61574911695138" class="social-icon"
+                ><img src="assets/icons/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="https://www.instagram.com/cinexmovie/" class="social-icon"
+                ><img src="assets/icons/Instagram.png" alt="Instagram"
+              /></a>
+              <a href="https://www.youtube.com/@CineX-o2g" class="social-icon"
+                ><img src="assets/icons/Youtube.png" alt="YouTube"
+              /></a>
+            </div>
+            <div class="contact-info">
+              <a href="tel:0378229818" class="contact-item"
+                ><img src="assets/icons/phone.png" alt="Phone" />099999999</a
+              >
+              <a href="mailto:cinexsupport.vn@cinex.com" class="contact-item"
+                ><img
+                  src="assets/icons/email.png"
+                  alt="Email"
+                />cinexsupport.vn@cinex.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.header-logo {
+  width: 140px;
+}
+
+.header-nav-text {
+  display: flex;
+  gap: 80px;
+}
+
+.header-nav-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+
+.header-nav-text-glow {
+  display: flex;
+  gap: 50px;
+  margin-left: 3%;
+  margin-right: -5%;
+}
+
+.header-nav-text-glow a {
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.text-purple {
+  color: #DB25BA !important
+}
+
+.text-yellow {
+  color: #DCEA15 !important
+}
+
+.glow-purple {
+  text-shadow: #DB25BA 0px 0px 50px;
+}
+
+.glow-yellow {
+  text-shadow: #DCEA15 0px 0px 50px;
+}
+
+.header-nav-glow-icon-purple {
+  margin-top: -30%;
+}
+
+.header-nav-glow-icon-yellow {
+  margin-top: -30%;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.header-nav-button-language  {
+  margin-top: 10px;
+  background-color: #333;
+  border: none;
+  padding: 5px 17px;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;  
+  gap: 10px;    
+}
+
+.tieng-viet{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+
+.header-nav-button-login {
+  background-color: #ff0000;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+.header-nav-button-language a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header-nav-button-login a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.header-nav-button-language-icon {
+  padding-top: -10%;
+  margin-left: -10%;
+  margin-right: 7%;
+  padding-bottom: 2%;
+}
+
+.header-nav-line {
+  width: 100%;
+  height: 2px;
+  background-color: #ff0000;
+  margin-top: 0px;
+  padding: 0;
+  filter: blur(5px);
+}
+
+.select-genre {
+  background-color: transparent;
+  margin-top: -7px;
+  color: white;
+  border: none;
+  font-size: 23px;
+  padding: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+}
+.select-genre option {
+  color: black;
+}
+
+.account-img {
+  cursor: pointer;
+  width: 50px;
+}
+
+body {
+    height: auto;
+    width: auto;
+  background-color: black;
+}
+
+.background1 {
+  margin-top: 10%;
+  margin-left: 47.3%;
+  filter: blur(10px);
+  overflow: hidden;
+}
+.background2 {
+    filter: blur(10px);
+    position: absolute;
+    top: 748%;
+    overflow: hidden;
+  }
+  .background3 {
+    filter: blur(10px);
+    position: absolute;
+    top: 300%;
+    left: -5.5%;
+  }
+
+    .poster {
+        position: absolute;
+        display: flex;
+        gap: 35%;
+        left: 10%;
+        top: 850%;
+    }
+
+      .topphim {
+      top: 830%;
+      left: 7%;
+      position: absolute;
+      color: white;
+      font-size: 50px;
+      }
+      .so {
+      position: absolute;
+      margin-left: 3%;
+      display: flex;
+      gap: 400px;
+      top: 850%;
+      }
+  .tieude1 {
+    top: 1350px;
+    left: 7%;
+    position: absolute;
+    color: white;
+  }
+
+.khoahocvientuong {
+  display: flex;
+  position: absolute;
+  top: 3250px;
+  left: 7%;
+  gap: 20px;
+}
+
+.toipham {
+  display: flex;
+  position: absolute;
+  top: 820px;
+  left: 7%;
+  gap: 20px;
+}
+
+.tieude2 {
+  top: 730px;
+  left: 7%;
+  position: absolute;
+  color: white;
+}
+
+.hoathinh {
+  display: flex;
+  position: absolute;
+  top: 2050px;
+  left: 7%;
+  gap: 20px;
+}
+
+.tieude3 {
+  position: absolute;
+  top: 1970px;
+  left: 7%;
+  color: white;
+}
+
+.giadinh {
+  display: flex;
+  position: absolute;
+  top: 6210px;
+  left: 7%;
+  gap: 20px;
+}
+.tieude4 {
+  position: absolute;
+  top: 6130px;
+  left: 7%;
+  color: white;
+}
+
+.chientranh {
+  display: flex;
+  position: absolute;
+  top: 1450px;
+  left: 7%;
+  gap: 20px;
+}
+.tieude5 {
+  position: absolute;
+  top: 3160px;
+  left: 7%;
+  color: white;
+}
+
+.tieude6 {
+  position: absolute;
+  top: 3750px;
+  left: 7%;
+  color: white;
+}
+
+.kinhdi {
+  display: flex;
+  position: absolute;
+  top: 3830px;
+  left: 7%;
+  gap: 20px;
+}
+
+.tieude7 {
+  position: absolute;
+  top: 4350px;
+  left: 7%;
+  color: white;
+}
+
+.trinhtham {
+  display: flex;
+  position: absolute;
+  top:  4450px;
+  left: 7%;
+  gap: 20px;
+}
+
+.tieude8 {
+  position: absolute;
+  top: 4950px;
+  left: 7%;
+  color: white;
+}
+
+.langmang {
+  display: flex;
+  position: absolute;
+  top: 5030px;
+  left: 7%;
+  gap: 20px;
+}
+
+.tieude9 {
+  position: absolute;
+  top: 5540px;
+  left: 7%;
+  color: white;
+}
+
+.hai {
+  display: flex;
+  position: absolute;
+  top: 5630px;
+  left: 7%;
+  gap: 20px;
+}
+
+
+.tieude10 {
+  position: absolute;
+  top: 6700px;
+  left: 7%;
+  color: white;
+}
+
+.phieuluu {
+  display: flex;
+  position: absolute;
+  top: 6790px;
+  left: 7%;
+  gap: 20px;
+}
+
+.phimmoi{
+  top: 120px;
+  left: 7%;
+  position: absolute;
+  color: white;
+}
+
+.phimmoi2{
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: 7%;
+  gap: 20px;
+}
+
+.phimbo{
+  top: 2550px;
+  left: 7%;
+  position: absolute;
+  color: white;
+}
+
+.phimbo2{
+  display: flex;
+  position: absolute;
+  top: 2650px;
+  left: 7%;
+  gap: 20px;
+}
+
+.phimle{
+  top: 7300px;
+  left: 7%;
+  position: absolute;
+  color: white;
+}
+
+.phimle2{
+  display: flex;
+  position: absolute;
+  top: 7390px;
+  left: 7%;
+  gap: 20px;
+}
+
+footer {
+  padding: 40px 50px;
+  color: #fff;
+  position: relative;
+  top: 6500px;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  flex: 3;
+  padding-right: 60px;
+}
+.footer-logo {
+  margin-top: -40px;
+  margin-bottom: 1px;
+}
+
+.logo-image-footer {
+  width: 200px;
+  height: auto;
+}
+
+.company-details {
+  font-size: 13px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: -5px;
+}
+
+.company-details p {
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.certification {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.certification img {
+  height: 35px;
+  width: auto;
+}
+
+.footer-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-top-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 30px;
+}
+
+.footer-section a {
+  font-size: 14px;
+  transition: color 0.3s;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-bottom-contact {
+  margin-bottom: 40px;
+  margin-top: auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-item {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+@font-face {
+  font-family: 'Inter-Black';
+  src: url('../assets/fonts/Inter28pt-Black.eot');
+  src: url('../assets/fonts/Inter28pt-Black.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-Black.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-Black.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-Black.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-Black.svg#Inter28pt-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-BlackItalic';
+  src: url('../assets/fonts/Inter28pt-BlackItalic.eot');
+  src: url('../assets/fonts/Inter28pt-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-BlackItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-BlackItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-BlackItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-BlackItalic.svg#Inter28pt-BlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../assets/fonts/Inter28pt-Bold.eot');
+  src: url('../assets/fonts/Inter28pt-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-Bold.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-Bold.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-Bold.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-Bold.svg#Inter28pt-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraLightItalic';
+  src: url('../assets/fonts/Inter28pt-ExtraLightItalic.eot');
+  src: url('../assets/fonts/Inter28pt-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-ExtraLightItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-ExtraLightItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-ExtraLightItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-ExtraLightItalic.svg#Inter28pt-ExtraLightItalic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBoldItalic';
+  src: url('../assets/fonts/Inter28pt-ExtraBoldItalic.eot');
+  src: url('../assets/fonts/Inter28pt-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-ExtraBoldItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-ExtraBoldItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-ExtraBoldItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-ExtraBoldItalic.svg#Inter28pt-ExtraBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraLight';
+  src: url('../assets/fonts/Inter28pt-ExtraLight.eot');
+  src: url('../assets/fonts/Inter28pt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-ExtraLight.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-ExtraLight.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-ExtraLight.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-ExtraLight.svg#Inter28pt-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-BoldItalic';
+  src: url('../assets/fonts/Inter28pt-BoldItalic.eot');
+  src: url('../assets/fonts/Inter28pt-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-BoldItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-BoldItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-BoldItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-BoldItalic.svg#Inter28pt-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('../assets/fonts/Inter28pt-ExtraBold.eot');
+  src: url('../assets/fonts/Inter28pt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-ExtraBold.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-ExtraBold.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-ExtraBold.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-ExtraBold.svg#Inter28pt-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Italic';
+  src: url('../assets/fonts/Inter28pt-Italic.eot');
+  src: url('../assets/fonts/Inter28pt-Italic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-Italic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-Italic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-Italic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-Italic.svg#Inter28pt-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('../assets/fonts/Inter28pt-Regular.eot');
+  src: url('../assets/fonts/Inter28pt-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-Regular.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-Regular.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-Regular.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-Regular.svg#Inter28pt-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('../assets/fonts/Inter28pt-Medium.eot');
+  src: url('../assets/fonts/Inter28pt-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-Medium.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-Medium.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-Medium.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-Medium.svg#Inter28pt-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('../assets/fonts/Inter28pt-Light.eot');
+  src: url('../assets/fonts/Inter28pt-Light.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-Light.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-Light.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-Light.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-Light.svg#Inter28pt-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('../assets/fonts/Inter28pt-SemiBold.eot');
+  src: url('../assets/fonts/Inter28pt-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-SemiBold.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-SemiBold.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-SemiBold.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-SemiBold.svg#Inter28pt-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-LightItalic';
+  src: url('../assets/fonts/Inter28pt-LightItalic.eot');
+  src: url('../assets/fonts/Inter28pt-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-LightItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-LightItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-LightItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-LightItalic.svg#Inter28pt-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-MediumItalic';
+  src: url('../assets/fonts/Inter28pt-MediumItalic.eot');
+  src: url('../assets/fonts/Inter28pt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-MediumItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-MediumItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-MediumItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-MediumItalic.svg#Inter28pt-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-SemiBoldItalic';
+  src: url('../assets/fonts/Inter28pt-SemiBoldItalic.eot');
+  src: url('../assets/fonts/Inter28pt-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-SemiBoldItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-SemiBoldItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-SemiBoldItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-SemiBoldItalic.svg#Inter28pt-SemiBoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  src: url('../assets/fonts/Inter28pt-Thin.eot');
+  src: url('../assets/fonts/Inter28pt-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-Thin.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-Thin.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-Thin.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-Thin.svg#Inter28pt-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-ThinItalic';
+  src: url('../assets/fonts/Inter28pt-ThinItalic.eot');
+  src: url('../assets/fonts/Inter28pt-ThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Inter28pt-ThinItalic.woff2') format('woff2'),
+      url('../assets/fonts/Inter28pt-ThinItalic.woff') format('woff'),
+      url('../assets/fonts/Inter28pt-ThinItalic.ttf') format('truetype'),
+      url('../assets/fonts/Inter28pt-ThinItalic.svg#Inter28pt-ThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+body {
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* hover */
+.diadao:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .nhungnguoiviethuyenthoai:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .muicochay:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .hanoi12ngaydem:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .vituyen17:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+/* toi pham */
+  .goodfather:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .les:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .johnwick:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .departed:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .zodiac:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+/* hoat hinh */
+  .moana2:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .kitmesu:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .padington:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .panda4:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .stitch:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  /* gia dinh */
+
+  .bogia:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .giadinhbadao:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .giadinhhoanhao:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .ngaykocome:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .kobietten:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  /* khoa hoc vien tuong */
+
+  .avatar:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .avengers:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .themarvels:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .annihilation:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .quantumania:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  /* kinh di */
+  .mada:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .quycau:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .acquy:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .kinhcauma:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .lamgiauvoima:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+  /* trinh tham */
+  .thaotung:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .contratiempo:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .deathnote:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .anmangvenice:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .sherlockholmes:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+  /* phim lang mang */
+
+  .queenoftear:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .yeunhulandau:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .maibenem:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .hauduemattroi:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .yeu:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+  /* hai */
+  .chutichgiaohang:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .cuoixuyenbiengioi:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .bo4baothu:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .chaydiroitinh:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .macgitet:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    cursor: pointer;
+  }
+    /* phieu luu */
+    .harrypotter:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .pil:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .tintin:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .madmax:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .therevenant:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+
+    .matvuphuho:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .timxacmakodau:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .pororo:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
+    .gauyeucuaanh:hover{
+      transform: scale(1.10);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      z-index: 10;
+      cursor: pointer;
+    }
+  
